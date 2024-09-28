@@ -6,17 +6,57 @@
     <link rel="icon" href="./image/hochul.ico"/>
     <meta property="og:title" content="호철Hochul">
     <meta property="og:description" content="New Website!">
-    <meta property="og:image" content="https://hochul0528.github.io/image/hochul.ico">
+    <meta property="og:image" content="https://localhost/image/hochul.ico">
     <link href="index.css?after" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="main">
-            <h2>호철Hochul</h2>
-            <a><button class="button button1" onClink="window.open('https://www.youtube.com/c/호철Hochul')">YouTube</button></a>
-            <a><button class="button button1" onClick="window.open('https://discord.gg/hochul')">Discord</button></a>
-            <a><button class="button button1" onClink="window.open('https://steamcommunity.com/id/hochul0528/myworkshopfiles/')">Steam Workshop</button></a>
+    <span class="slideshow-container">
+        <div class="Slidesbackground">
+            <div class="image-slides fade">
+            <img src="./image/1.JPG" class="slideshow-image">
+            </div>
+            <div class="image-slides fade">
+                <img src="./image/2.JPG" class="slideshow-image">
+            </div>
+            <div class="image-slides fade">
+                <img src="./image/3.JPG" class="slideshow-image">
+            </div>
+            <div class="image-slides fade">
+                <img src="./image/4.JPG" class="slideshow-image">
+            </div>
+            <div class="image-slides fade">
+                <img src="./image/5.JPG" class="slideshow-image">
+            </div>
+            <div class="image-slides fade">
+                <img src="./image/6.JPG" class="slideshow-image">
+            </div>
         </div>
+    </span>
+    <div class="main">
+        <h2>호철Hochul</h2>
+        <a href='https://www.youtube.com/c/호철Hochul' target='_blank'><button class="button button1">YouTube</button></a>
+        <a><button class="button button1" onClick="window.open('https://discord.gg/hochul')">Discord</button></a>
+        <a href='https://steamcommunity.com/id/hochul0528/myworkshopfiles/' target='_blank'><button class="button button1">Steam Workshop</button></a>
     </div>
 </body>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("image-slides");
+        
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            slides[slideIndex - 1].style.display = "block";
+        
+            setTimeout(showSlides, 10000);
+        }
+    </script>
 </html>

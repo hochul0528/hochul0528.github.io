@@ -11,16 +11,54 @@
     box-sizing: border-box;
 }
 
-.container{
+
+.Slidesbackground {
+    margin: 0;
+    padding: 0;
+
+}
+.slideshow-image{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/background.JPG);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+}
+.image-slides {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(30%)
 }
 
-.container .main{
+.slideshow-container {
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.main{
+    display: flex;
+    flex-direction: column; /* 세로로 배치 */
+    align-items: center; /* 중앙 정렬 */
     position: absolute;
     left: 50%;
     top: 50%;
@@ -28,42 +66,39 @@
     color: white;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: middle; /* top, bottom */
 }
 
-.container .main h2{
-    font-size: 50px;
+.main h2{
+    font-size: 60px;
     margin-bottom: 20px;
-	top: 50%;
-	text-align: center;
 }
 
-.container .main p{
+.main p{
     font-size: 25px;
 }
 
-.container .main button{
+.main button{
     font-family: 'SUITE-Regular';
     background: none;
     border: 2px solid white;
     color: white;
-    padding: 15px 70px;
+    width: 250px;
+    height: 50px;
     border-radius: 15px;
     margin-top: 20px;
     outline: none;
     cursor: pointer;
     transition: all .4s;
+    justify-content: center;
     font-size:  15px;
-	display: flex;
-	justify-content: center;
 }
 
-.button1 {width: 265px;}
-
-.container .main button a{
+.main button a{
     text-decoration: 0;
     color: white;
 }
 
-.container .main button:hover{
+.main button:hover{
     background-color: darkslategray;
 }
