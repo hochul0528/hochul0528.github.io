@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hochul Download Center</title>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="hochul.ico">
+  <title>Hochul Download Center</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Hochul Download Center" />
+  <meta property="og:description" content="Hochul Mods Donwload Center" />
+  <meta property="og:url" content="https://hochul.co.kr" />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+<header class="header">
+  <h1>Hochul Download Center</h1>
+  
+  <!-- 소셜 버튼 -->
+  <div class="social-buttons">
+    <a href="https://youtube.com/@호철Hochul" target="_blank" class="social-btn youtube">YouTube</a>
+    <a href="https://discord.gg/hochul" target="_blank" class="social-btn discord">Discord</a>
+    <button id="howto-btn" class="social-btn">모드 추가 방법</button>
+  </div>
+</header>
+
+<!-- 카드 영역 -->
+<div id="addon-list"></div>
+
+<!-- 적용법 모달 -->
+<div id="howto-modal" class="modal">
+  <div class="modal-content">
+    <span id="howto-close" class="modal-close">&times;</span>
+    <h3>모드 추가 방법</h3>
+    <p>제작 중...</p>
+  </div>
+</div>
+
+<!-- 모달 -->
+<div id="addon-modal" class="modal">
+  <div class="modal-content">
+    <span id="modal-close">&times;</span>
+    <img id="modal-img" src="" alt="미리보기" />
+    <h3 id="modal-name"></h3>
+    <p id="modal-version"></p>
+    <a id="modal-download" href="#" download>
+      <button>모드 다운로드</button>
+    </a>
+    <div id="modal-custom-container"></div>
+  </div>
+</div>
+
+  <footer class="footer">
+  <p>© 2025 Hochul. All rights reserved.</p>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
