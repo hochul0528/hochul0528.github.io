@@ -2,7 +2,7 @@ const addons = [
   { 
     name:"현대 유니버스 2022 올 라인업", 
     version:"2.0", 
-    size:"3.2MB",         // 용량 추가
+    size:"1.2GB",         // 용량 추가
     redirectUrl:"https://drive.google.com/uc?export=download&id=1jGoRAk9igGogORbJt03Hx9xidbpmbLGW",
     customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1weipfcj1ZdHgYSzNyGjTAKSg5eo6Jd50" },{ name:"도색 UV 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1iQhqaJy3v2nUTogyj8busET-TtNoxbEg" }],
     img:"image/universe2022.png" 
@@ -10,7 +10,7 @@ const addons = [
   { 
     name:"기아 그랜버드 실크로드 2022",  
     version:"1.4", 
-    size:"1.8MB",
+    size:"509MB",
     redirectUrl:"https://drive.google.com/uc?export=download&id=1-2miMTCFtdgz5okC3gJVqESjJujsd8U5",
     customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1sBO-u3zwikbNCkr-qj_VwPSafCmEYfaT" },{ name:"도색 UV 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1ile2Ki4OEiXMLjQnIz_HNRVlaWc3CFXn" }],
     img:"image/granbird2022.png" 
@@ -18,7 +18,7 @@ const addons = [
   { 
     name:"현대 유니버스 2017", 
     version:"1.1.0.1", 
-    size:"5.7MB",
+    size:"615MB",
     redirectUrl:"https://drive.google.com/uc?export=download&id=17vx3bVeAPxMNqRhNXMwJdFZqwfnLj-07",
     customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=12JyrLzKJS-IguUw_E_e3sirQCP32SftG" },{ name:"도색 UV 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1KHwMJWGdnswk6-9iMNUj6T3aHzI8EGvG" }],
     img:"image/universe2017.png" 
@@ -26,7 +26,7 @@ const addons = [
     { 
     name:"기아 뉴그랜버드 실크로드 (구형 그랜버드)", 
     version:"1.1.0.1", 
-    size:"5.7MB",
+    size:"530MB",
     redirectUrl:"https://drive.google.com/uc?export=download&id=12UFLTM8yDRONBx2Lo8wTetqGWD6Sw9h0",
     customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=18ToDrJexNwr2IXrcfTUw-VZZVYwnQYJ-" },{ name:"도색 UV 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1vQF-tfrpx5IOQ6Fx_uGymEe6k3p7dMIc" }],
     img:"image/newgranbird.png" 
@@ -34,7 +34,7 @@ const addons = [
     { 
     name:"현대 일렉시티 2", 
     version:"2.0b", 
-    size:"5.7MB",
+    size:"187MB",
     redirectUrl:"https://drive.google.com/uc?export=download&id=1khqs6ZA9Y7PNXHAj33wkrDfjQGILPJsD",
     customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1k_hmpgS1dBzd_h1AGm1t4-bfsbFX4b-5" },{ name:"도색 UV 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1b8iUvc6U5_Po-ENc-z-raeQNl67HNHYk" }],
     img:"image/eleccity.png" 
