@@ -37,15 +37,39 @@ const addons = [
 
   { 
     name:"기아 뉴그랜버드 실크로드 (구형 그랜버드)", 
-    version:"1.1.0.1", 
-    size:"530MB",
-    date: "2024-08-18",
+    version:"beta. 2.0.1", 
+    size:"694MB",
+    date: "2026-01-31",
     redirectUrl:"https://drive.google.com/uc?export=download&id=12UFLTM8yDRONBx2Lo8wTetqGWD6Sw9h0",
     customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=18ToDrJexNwr2IXrcfTUw-VZZVYwnQYJ-" },{ name:"도색 UV 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1vQF-tfrpx5IOQ6Fx_uGymEe6k3p7dMIc" }],
     img:"image/newgranbird.jpg",
     manufacturer: "기아",
     category: "버스"
   },
+
+  { 
+    name:"기아 봉고 3", 
+    version:"1.0", 
+    size:"610MB",
+    date: "2024-12-03",
+    redirectUrl:"https://drive.google.com/uc?export=download&id=1go-0NNvVpauOWYEXj0IbQPHjEFDq52H5",
+    customButtons:[ { name:"커스텀 다운로드", redirectUrl:"https://drive.google.com/uc?export=download&id=1qXHSsRPiJxtnWRiv2GRyRMtNpkQ3viYB" }],
+    img:"image/bongo3.jpg",
+    manufacturer: "기아",
+    category: "트럭"
+  },
+
+    { 
+    name:"현대 N Vision 74", 
+    version:"1.0", 
+    size:"120MB",
+    date: "2022-12-04",
+    redirectUrl:"https://drive.google.com/uc?export=download&id=1XcczpV5KiSzwZmbBcxY38aDyS-jWvE2t",
+    img:"image/vision74.jpg",
+    manufacturer: "기아",
+    category: "스포츠카"
+  },
+
 
   { 
     name:"현대 일렉시티 2", 
