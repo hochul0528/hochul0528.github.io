@@ -40,6 +40,7 @@ header h1 {
 
 .social-btn:hover.youtube { color: #FF0000; }
 .social-btn:hover.discord { color: #5865F2; }
+.social-btn:hover.english { color: #3ffdae; }
 .social-btn:hover:not(.youtube):not(.discord) { color: #3b82f6; }
 
 .filters {
